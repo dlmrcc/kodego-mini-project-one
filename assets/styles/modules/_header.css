@@ -4,7 +4,7 @@
   top: 0; /* Position the navbar at the top of the page */
   width: 100%;
 }
-.custom-font {
+.amostara_custom-font {
   font-family: "Oleo Script Swash Caps", cursive;
   color: rgb(56, 55, 55);
   /* font-family: "Rowdies", cursive; */
@@ -28,7 +28,7 @@
   /* font-weight: bold; */
 }
 
-.btn {
+.btn-subscribe {
   margin: auto;
   width: 95px;
   height: 35px;
@@ -43,14 +43,14 @@
   outline: none;
 }
 
-.btn:hover {
+.btn-subscribe:hover {
   box-shadow: inset 300px 0 0 0 #0b5ed7;
   /* font-weight: bold; */
   cursor: pointer;
   color: white;
 }
 
-.input {
+.input-search {
   margin: auto;
   height: 35px;
 }
