@@ -1,2 +1,4 @@
 @import "./styles/base/_global.css";
 @import "./styles/modules/_header.css";
+@import "./styles/modules/_hero-text.css";
+@import "./styles/modules/_hero-background.css";
