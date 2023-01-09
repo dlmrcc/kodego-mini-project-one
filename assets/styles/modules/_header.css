@@ -1,7 +1,11 @@
+.header {
+  position: fixed;
+}
 .header > nav {
-  background-color: rgb(224, 224, 226);
+  background-color: rgb(255, 255, 255);
   position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
+
+  top: 0px; /* Position the navbar at the top of the page */
   width: 100%;
 }
 .amostara_custom-font {
