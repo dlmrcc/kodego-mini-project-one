@@ -12,3 +12,8 @@
   font-weight: bold;
   margin-bottom: 1rem;
 }
+
+.footer-spacetop {
+  background-color: lightblue;
+  padding-top: 2rem;
+}
