@@ -1,0 +1,47 @@
+.section-album {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+.album-text {
+  margin-right: 75px;
+  margin-left: 75px;
+
+  padding-top: 0px;
+  padding-right: 32px;
+  padding-bottom: 0px;
+  padding-left: 32px;
+}
+
+.album_small-text {
+  color: rgb(75 75 75 / var(--tw-text-opacity));
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+@media (min-width: 1024px) {
+  .album_large-text {
+    margin-bottom: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  .album_large-text {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+}
+.album_large-text {
+  font-family: Pangea Display, Helvetica, Arial, sans-serif;
+  line-height: 1.1;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.3;
+  margin-bottom: 0px;
+  /* font-size: inherit; */
+  font-weight: inherit;
+}
