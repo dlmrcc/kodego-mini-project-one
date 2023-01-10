@@ -1,0 +1,14 @@
+.h1 {
+  color: blue;
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+
+.p-discount {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.h5-footer {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
