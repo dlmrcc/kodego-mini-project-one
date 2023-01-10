@@ -24,17 +24,6 @@
   line-height: 1.4;
 }
 
-@media (min-width: 1024px) {
-  .album_large-text {
-    margin-bottom: 4rem;
-  }
-}
-@media (min-width: 768px) {
-  .album_large-text {
-    font-size: 48px;
-    line-height: 1.2;
-  }
-}
 .album_large-text {
   font-family: Pangea Display, Helvetica, Arial, sans-serif;
   line-height: 1.1;
@@ -44,4 +33,42 @@
   margin-bottom: 0px;
   /* font-size: inherit; */
   font-weight: inherit;
+}
+/* 
+@media only screen and (min-width: 300px) {
+  .album_large-text {
+    font-size: 20px;
+    line-height: 0.3;
+  }
+} */
+
+@media only screen and (min-width: 200px) {
+  .album_large-text {
+    font-size: 24px;
+    line-height: 0.2;
+  }
+  .album_small-text {
+    letter-spacing: 0.025em;
+    font-size: 10px;
+    line-height: -0.6;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .album_large-text {
+    font-size: 28px;
+    line-height: 0.2;
+  }
+  .album_small-text {
+    letter-spacing: 0.025em;
+    font-size: 15px;
+    line-height: -0.6;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .album_large-text {
+    font-size: 48px;
+    line-height: 1.2;
+  }
 }
