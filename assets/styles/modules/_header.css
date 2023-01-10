@@ -1,9 +1,11 @@
 .header {
   position: fixed;
+  display: block;
 }
 .header > nav {
   background-color: rgb(255, 255, 255);
   position: fixed; /* Set the navbar to fixed position */
+  display: block;
 
   top: 0px; /* Position the navbar at the top of the page */
   width: 100%;
