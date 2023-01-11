@@ -3,9 +3,9 @@
     &__
 } */
 .image-contaiers {
-  width: auto;
+  width: 100%;
   height: auto;
 }
 .image {
-  width: auto;
+  width: 100%;
 }
