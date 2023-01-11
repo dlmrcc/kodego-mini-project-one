@@ -1,0 +1,39 @@
+.hero {
+  background: linear-gradient(
+      0deg,
+      rgba(40, 66, 101, 0.25),
+      rgba(40, 66, 101, 0.25)
+    ),
+    url("/assets/images/amanpulo.jpg");
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text-content {
+    width: 100%;
+    padding: 1rem 1rem 0 1rem;
+    color: #fff;
+
+    text-align: center;
+    font-size: 1.1em;
+  }
+
+  &__image-container {
+    width: 100%;
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__heading {
+    font-size: 1.75rem;
+  }
+
+  &__text {
+    line-height: 1.7;
+    font-weight: 100;
+  }
+}
