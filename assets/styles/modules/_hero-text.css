@@ -6,18 +6,6 @@
 
 /* //first div */
 
-@media only screen and (min-width: 1024px) {
-  .first-div {
-    top: 16rem;
-  }
-  .hero-h1 {
-    font-size: 6.5rem;
-  }
-  .hero-span {
-    font-size: 6.5rem;
-  }
-}
-
 .first-div {
   top: 16rem;
   max-width: 100%;
@@ -31,14 +19,6 @@
   position: absolute;
 }
 /* second div */
-
-@media only screen and (min-width: 1024px) {
-  .second-div {
-    max-width: 56rem;
-    width: -moz-max-content;
-    width: max-content;
-  }
-}
 
 .second-div {
   justify-content: center;
@@ -60,15 +40,8 @@
 
 /* hero-h1 */
 
-@media only screen and (min-width: 768px) {
-  .hero-h1 {
-    font-size: 88px;
-    line-height: 1.1;
-  }
-}
-
 .hero-h1 {
-  font-family: Pangea Display, Helvetica, Arial, sans-serif;
+  font-family: "Rowdies", cursive;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   font-weight: 500;
@@ -80,8 +53,8 @@
 /* hero span */
 
 .hero-span {
-  font-family: Pangea Display, Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-family: "Rowdies", cursive;
+
   font-style: italic;
   white-space: nowrap;
   --tw-text-opacity: 1;
@@ -90,4 +63,104 @@
   font-size: 6.5rem;
   line-height: 1.1;
   text-align: center;
+}
+/* }
+@media only screen and (min-width: 200px) {
+  .first-div {
+    top: 5rem;
+  }
+  .hero-h1 {
+    font-size: 1.5rem;
+  }
+  .hero-span {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .first-div {
+    top: 8rem;
+  }
+  .second-div {
+    margin: initial;
+  }
+  .hero-h1 {
+    font-size: 1.5rem;
+  }
+  .third-div {
+    width: 10rem;
+  }
+  .hero-span {
+    font-size: 1.75rem;
+  }
+} */
+@media only screen and (min-width: 200px) {
+  .first-div {
+    top: 4rem;
+  }
+  .hero-h1 {
+    font-size: 0.5rem;
+  }
+  .hero-span {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .first-div {
+    top: 6rem;
+  }
+  .hero-h1 {
+    font-size: 1.5rem;
+  }
+  .hero-span {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  .first-div {
+    top: 7rem;
+  }
+  .hero-h1 {
+    font-size: 2.5rem;
+  }
+  .hero-span {
+    font-size: 3.5rem;
+  }
+}
+@media only screen and (min-width: 650px) {
+  .first-div {
+    top: 9rem;
+  }
+  .hero-h1 {
+    font-size: 3.5rem;
+  }
+  .hero-span {
+    font-size: 4.5rem;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .first-div {
+    top: 12rem;
+  }
+  .hero-h1 {
+    font-size: 4.5rem;
+  }
+  .hero-span {
+    font-size: 5.5rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .first-div {
+    top: 13rem;
+  }
+  .hero-h1 {
+    font-size: 5.5rem;
+  }
+  .hero-span {
+    font-size: 6.5rem;
+  }
 }
