@@ -2,10 +2,10 @@
 {
     &__
 } */
-.image-contaier {
-  width: 100%;
+.image-contaiers {
+  width: auto;
   height: auto;
 }
 .image {
-  width: 100%;
+  width: auto;
 }
