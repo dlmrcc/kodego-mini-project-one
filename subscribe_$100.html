@@ -15,80 +15,71 @@
     <link rel="icon" href="assets/images/kitesurfing_black_24dp.svg" type="png">
 </head>
 <body>
-  <header class="header">
-    <nav class="navbar navbar-expand-lg  " aria-label="Offcanvas navbar large">
-    <div class="container-fluid">
-    
-      <a class="navbar-brand amostara_custom-font" href="index.html">Amos Tara sa Palawan</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end text-bg-white" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbar2Label"></h5>
-          <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <form class="d-flex mt-3 mt-lg-0 form-alingment" role="search">
-            <input class="form-control me-2 input-search border-secondary border-1" type="search" placeholder="Search" aria-label="Search">
+  <header class="container">
+    <nav class="navbar fixed-top navbar-expand-lg navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><i>
+          Amos Tara sa Palawan 
+        </i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           </form>
-
-          <!-- dropdown -->
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
-            <li class="nav-item dropdown navbar-dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               <span>Destinations</span> 
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Destination
               </a>
-              <ul class="dropdown-menu" >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                  <li><a class="dropdown-item" href="https://www.elnidoresorts.com/">El Nido</a></li>
                 <li><a class="dropdown-item" href="https://puertoprincesa.ph/">Puerto Princesa City</a></li>
                 <li><a class="dropdown-item" href="https://taytaypalawan.gov.ph/">Taytay</a></li>
                 <li><a class="dropdown-item" href="https://taytaypalawan.gov.ph/">Brooke's Point</a></li>
                 <li><a class="dropdown-item" href="https://www.coron-travel.com/">Coron</a></li>
                 <li><a class="dropdown-item" href="https://www.aman.com/resorts/amanpulo">Cuyo</a></li>
-                 <li class="lst-bgcolor"><a class="dropdown-item" href="#"><em>see all destinations</em> </a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">see all destinations</a></li>
               </ul>
             </li>
-
-            <li class="nav-item dropdown navbar-dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               <span>Stories</span> 
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Stories
               </a>
-              <ul class="dropdown-menu" >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                  <li><a class="dropdown-item" href="#">Adventure Travel</a></li>
                 <li><a class="dropdown-item" href="#">Art and Culture</a></li>
                 <li><a class="dropdown-item" href="#">Beaches, Coast and Island</a></li>
                 <li><a class="dropdown-item" href="#">Family Holiday</a></li>
                 <li><a class="dropdown-item" href="#">Festival</a></li>
                 <li><a class="dropdown-item" href="#">Food and Drinks</a></li>
-                 <li class="lst-bgcolor"><a class="dropdown-item" href="#"><em>see all stories</em> </a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">see all stories</a></li>
               </ul>
             </li>
-
-
-            <li class="nav-item dropdown navbar-dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               <span>Shop</span> 
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Shop
               </a>
-              <ul class="dropdown-menu" >
-                 <li><a class="dropdown-item" href="#">Destination Guide</a></li> 
-                 <li><a class="dropdown-item" href="#">Pictorial and Gifts</a></li> 
-                 <li><a class="dropdown-item" href="#">Phrasebooks</a></li> 
-                  
-                
-                 <li class="lst-bgcolor"><a class="dropdown-item" href="#"><em>see all shop</em> </a></li>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Destination Guide</a></li> 
+               <li><a class="dropdown-item" href="#">Pictorial and Gifts</a></li> 
+               <li><a class="dropdown-item" href="#">Phrasebooks</a></li> 
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">see all shops</a></li>
               </ul>
             </li>
-           
+          
           </ul>
-          <form class="d-flex mt-3 mt-lg-0 form-alingment" role="search" action="subscribe.html">
-                        <button class="btn-subscribe" type="submit">Subscribe</button>
+          <form class="d-flex " action="subscribe.html">
+            <button class="btn btn-outline-success" type="submit">Subscribe</button>
           </form>
         </div>
       </div>
-    </div>
-  </nav> 
-</header>
+    </nav>
+  </header>
 <!-- hero section -->
 <div class="container">
     <main>
@@ -310,7 +301,6 @@
 <footer>
   <section>
     <div class="footer-spacetop">
-
     </div>
   </section>
 <section>
@@ -360,7 +350,7 @@
   
         <div class="col-md-5 offset-md-1 mb-3">
           <form>
-            <h4 class="h1">Amos Tara sa Palawan</h4>
+            <h5 class="h6">Amos Tara sa Palawan</h5>
             <p class="p-discount">Get 20% off our online shop. </p>
             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
               <label for="newsletter1" class="visually-hidden">Email address</label>
@@ -399,6 +389,7 @@
   </div>
 </section>
 </footer>
+
 </body>
 </html>
   
