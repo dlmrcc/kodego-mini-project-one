@@ -1,5 +1,6 @@
 .bg-img-container {
   position: relative;
+  margin-top: 3.5rem;
 }
 .bg-img-container img {
   /* position: absolute; */

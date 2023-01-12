@@ -1,10 +1,5 @@
-.h1 {
-  color: blue;
-  font-family: "Oleo Script Swash Caps", cursive;
-}
-
 .p-discount {
-  font-weight: bold;
+  /* font-weight: bold; */
   margin-bottom: 1rem;
 }
 
@@ -14,6 +9,6 @@
 }
 
 .footer-spacetop {
-  background-color: lightblue;
+  background-color: white;
   padding-top: 2rem;
 }
