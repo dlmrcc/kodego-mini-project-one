@@ -1,1 +1,173 @@
-@import "./styles/modules/_hero.css";
+/* @import "./styles/modules/_hero.css"; */
+
+.bg-img-container {
+  position: relative;
+  margin-top: 3.5rem;
+}
+.bg-img-container img {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+#second {
+  margin: auto;
+  position: absolute;
+  top: 8rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.hero-largetext {
+  font-size: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.hero-smalltext {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  line-height: 1px;
+  font-size: 5rem;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 300px) {
+  #second {
+    top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .hero-largetext {
+    font-size: 1.5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin: 0px;
+    line-height: 20px;
+  }
+
+  .hero-smalltext {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    font-size: 11px;
+    line-height: 8px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  #second {
+    top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .hero-largetext {
+    font-size: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin: 0px;
+    line-height: 28px;
+  }
+
+  .hero-smalltext {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    font-size: 15px;
+    line-height: 14px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #second {
+    top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .hero-largetext {
+    font-size: 3.5rem;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 0px;
+    line-height: 50px;
+  }
+
+  .hero-smalltext {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #second {
+    top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .hero-largetext {
+    font-size: 4.5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
+    line-height: 60px;
+  }
+
+  .hero-smalltext {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #second {
+    top: 5rem;
+  }
+  .hero-largetext {
+    font-weight: bold;
+    font-size: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 30px;
+    line-height: 77px;
+  }
+
+  .hero-smalltext {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1024px) {
+  #second {
+    top: 6rem;
+  }
+  .hero-largetext {
+    font-weight: bold;
+    font-size: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 30px;
+    line-height: 77px;
+  }
+
+  .hero-smalltext {
+    font-size: 24px;
+    line-height: 32px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
